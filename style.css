@@ -1,0 +1,128 @@
+html {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  background-color: #202123;
+}
+
+h1 {
+  
+  color: #67d3f1;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+label {
+  color: #67d3f1;
+}
+
+textarea {
+  resize: none;
+}
+
+.typewriter {
+  color: #b5e1e6; /* Ganti dengan warna yang Anda inginkan */
+  font-size: 1rem;
+}
+
+
+main {
+  margin: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form-control {
+  color: #67d3f1;
+  background-color: #393e46;
+  border: solid 1px #222831;
+  transition: linear 0.3s;
+}
+
+.form-control:focus {
+  color: #eeeeee;
+  background-color: #222831;
+  border: solid 1px #67d3f1;
+  box-shadow: none;
+}
+
+.form-control:disabled {
+  background-color: #393e46;
+}
+
+.form-control::placeholder {
+  color: #eeeeee;
+  opacity: 0.5;
+}
+
+.input-group {
+  width: 50%;
+}
+
+#addon-wrapping {
+  background-color: #222831;
+  border: none;
+}
+
+.bi {
+  font-size: 1.2em;
+  color: #eeeeee;
+}
+
+.btn {
+  background-color: #67d3f1;
+  color: #222831;
+  transition: linear 0.3s;
+}
+
+.delete-msg-btn {
+  background-color: #FF407D;
+  color: #222831;
+  transition: linear 0.3s;
+}
+
+.delete-msg-btn:hover {
+  background-color: #e86992 !important;
+}
+
+.btn:hover {
+  background-color: #a3e5f7;  
+}
+
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  code {
+    font-size: 0.7rem;
+  }
+
+  textarea {
+    height: 8em;
+  }
+
+  main {
+    margin: 2em;
+  }
+
+  main button {
+    margin-top: 10em;
+  }
+
+  footer {
+    margin: 1em;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+}
